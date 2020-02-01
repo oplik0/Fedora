@@ -21,7 +21,7 @@ repo --name=riot --baseurl="https://copr-be.cloud.fedoraproject.org/results/taw/
 # Use graphical install
 graphical
 # Keyboard layouts
-keyboard --xlayouts='us (mac)','de (mac)'
+keyboard --xlayouts='us (mac)','pl (mac)'
 # System language
 lang pl_PL.UTF-8
 
@@ -344,7 +344,7 @@ debuglevel = 1' > /etc/dnf/automatic.conf;
 systemctl enable --now dnf-automatic.timer
 
 # For every user who wants to use Syncthing.
-# systemctl enable --now syncthing@USER.service
+systemctl enable --now syncthing@opliko.service
 %end
 
 # Reboot After Installation
