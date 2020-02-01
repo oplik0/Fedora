@@ -173,6 +173,9 @@ R
 snapper
 # Shamir's secret sharing scheme
 ssss
+# P2P Synchronisation
+syncthing
+https://syncthing.net/downloads/
 python3-dnf-plugins-extras-snapper
 # data revocery tools
 testdisk
@@ -339,6 +342,9 @@ email_to = root@localhost
 [base]
 debuglevel = 1' > /etc/dnf/automatic.conf;
 systemctl enable --now dnf-automatic.timer
+
+# For every user who wants to use Syncthing.
+# systemctl enable --now syncthing@USER.service
 %end
 
 # Reboot After Installation
