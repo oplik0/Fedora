@@ -69,7 +69,6 @@ automake
 backintime-qt
 baobab
 bijiben
-bitwarden
 blivet-gui
 # if unnecessary, please comment out.
 cachefilesd
@@ -220,8 +219,8 @@ dnf -y install nvidia-driver nvidia-settings riot rpmfusion-free-release-tainted
 flatpak remote-add --if-not-exists flathub https://flathub.org/repo/flathub.flatpakrepo && flatpak install -y flathub org.signal.Signal
 # unbound
 # Please add a name and the ID from nextdns.io
-NAME="name";
-ID="myid1234";
+NAME="opliko";
+ID="b59735";
 echo -n "server:
 	verbosity: 1
 	statistics-interval: 0
