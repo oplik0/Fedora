@@ -21,7 +21,7 @@ repo --name=riot --baseurl="https://copr-be.cloud.fedoraproject.org/results/taw/
 # Use graphical install
 graphical
 # Keyboard layouts
-keyboard --xlayouts='us (mac)','pl (mac)'
+keyboard --xlayouts='pl'
 # System language
 lang pl_PL.UTF-8
 
